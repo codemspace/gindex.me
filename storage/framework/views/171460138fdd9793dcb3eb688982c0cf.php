@@ -22,9 +22,9 @@
                     <div class="container">
                         <a class="navbar-brand" href="index">
                             <img src="<?php echo e(URL::asset('build/images/logo-dark.png')); ?>" class="card-logo card-logo-dark"
-                                alt="logo dark" height="17">
+                                alt="logo dark" height="60">
                             <img src="<?php echo e(URL::asset('build/images/logo-light.png')); ?>" class="card-logo card-logo-light"
-                                alt="logo light" height="17">
+                                alt="logo light" height="60">
                         </a>
                         <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -69,7 +69,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 col-sm-10">
                                 <div class="text-center mt-lg-5 pt-5">
-                                    <h1 class="display-6 fw-semibold mb-3 lh-base">Accelerate Your Website's Visibility with  <span class="text-success">Gindex.me </span></h1>
+                                    <h1 class="display-6 fw-semibold mb-3 lh-base">Accelerate Your Website's Visibility with  <span class="text-success">WDM </span></h1>
                                     <p class="lead text-muted lh-base">Rapid URL Indexing for Enhanced SEO Performance.</p>
 
                                     <div class="d-flex gap-2 justify-content-center mt-4">
@@ -207,7 +207,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="text-center mb-5">
-                                    <h1 class="mb-3 ff-secondary fw-semibold lh-base">Welcome to Gindex.me, your go-to tool for optimizing your website's indexing on Google. </h1>
+                                    <h1 class="mb-3 ff-secondary fw-semibold lh-base">Welcome to WDM, your go-to tool for optimizing your website's indexing on Google. </h1>
                                     <p class="text-muted">Our innovative platform is designed to help new and updated websites gain the visibility they deserve, ensuring that your content reaches your target audience quickly and effectively</p>
                                 </div>
                             </div>
@@ -1395,13 +1395,13 @@
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#genques-collapseOne" aria-expanded="true"
                                                 aria-controls="genques-collapseOne">
-                                                How does Gindex.me work ?
+                                                How does WDM work ?
                                             </button>
                                         </h2>
                                         <div id="genques-collapseOne" class="accordion-collapse collapse show"
                                             aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
                                             <div class="accordion-body ff-secondary">
-                                            Gindex.me helps you submit your URLs directly to Google, speeding up the indexing process.
+                                            WDM helps you submit your URLs directly to Google, speeding up the indexing process.
                                             </div>
                                         </div>
                                     </div>
@@ -1425,7 +1425,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#genques-collapseThree"
                                                 aria-expanded="false" aria-controls="genques-collapseThree">
-                                                Do I need technical skills to use Gindex.me ?
+                                                Do I need technical skills to use WDM ?
                                             </button>
                                         </h2>
                                         <div id="genques-collapseThree" class="accordion-collapse collapse"
@@ -1483,7 +1483,7 @@
                                                 <div class="row justify-content-center">
                                                     <div class="col-10">
                                                         <div class="text-white-50">
-                                                            <p class="fs-20 ff-secondary mb-4">" Gindex.me helped my new blog get indexed within days! I saw a significant increase in traffic. "</p>
+                                                            <p class="fs-20 ff-secondary mb-4">" WDM helped my new blog get indexed within days! I saw a significant increase in traffic. "</p>
 
                                                             <div>
                                                                 <h5 class="text-white">Sarah J</h5>
@@ -1635,7 +1635,7 @@
                                     </div>
 
                                     <h5>3. Enhance Your SEO Strategy</h5>
-                                    <p class="text-muted ff-secondary">Integrate Gindex.me into your SEO strategy to improve your website's ranking and visibility.</p>
+                                    <p class="text-muted ff-secondary">Integrate WDM into your SEO strategy to improve your website's ranking and visibility.</p>
                                 </div>
                             </div>
                             <!-- end col -->
@@ -1652,7 +1652,7 @@
                         <div class="row align-items-center gy-4">
                             <div class="col-sm">
                                 <div>
-                                    <h6 class="text-white mb-0 fw-semibold">Sign up for Gindex.me and take the first step towards improving your website's SEO performance. Experience the difference of rapid indexing!
+                                    <h6 class="text-white mb-0 fw-semibold">Sign up for WDM and take the first step towards improving your website's SEO performance. Experience the difference of rapid indexing!
                                     </h6>
                                 </div>
                             </div>
