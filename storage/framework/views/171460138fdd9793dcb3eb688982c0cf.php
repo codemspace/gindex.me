@@ -1,20 +1,17 @@
-@extends('layouts.master-without-nav')
-@section('title')
+
+<?php $__env->startSection('title'); ?>
     Landing
-@endsection
-@section('css')
-    <link href="{{ URL::asset('build/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href ="{{URL::asset('build/custom.min.css')}}" rel="stylesheet" type="text/css" />
-@endsection
-@section('body')
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
+    <link href="<?php echo e(URL::asset('build/libs/swiper/swiper-bundle.min.css')); ?>" rel="stylesheet" type="text/css" />
+    <link href ="<?php echo e(URL::asset('build/custom.min.css')); ?>" rel="stylesheet" type="text/css" />
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('body'); ?>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar-example">
-    @endsection
-    @section('content')
-        {{-- @component('components.breadcrumb')
-        @slot('li_1') Icons @endslot
-        @slot('title') Landing @endslot
-    @endcomponent --}}
+    <?php $__env->stopSection(); ?>
+    <?php $__env->startSection('content'); ?>
+        
 
         
         <body data-bs-spy="scroll" data-bs-target="#navbar-example">
@@ -24,9 +21,9 @@
                 <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
                     <div class="container">
                         <a class="navbar-brand" href="index">
-                            <img src="{{ URL::asset('build/images/logo-dark.png') }}" class="card-logo card-logo-dark"
+                            <img src="<?php echo e(URL::asset('build/images/logo-dark.png')); ?>" class="card-logo card-logo-dark"
                                 alt="logo dark" height="17">
-                            <img src="{{ URL::asset('build/images/logo-light.png') }}" class="card-logo card-logo-light"
+                            <img src="<?php echo e(URL::asset('build/images/logo-light.png')); ?>" class="card-logo card-logo-light"
                                 alt="logo light" height="17">
                         </a>
                         <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse"
@@ -85,41 +82,41 @@
 
                                 <div class="mt-4 mt-sm-5 pt-sm-5 mb-sm-n5 demo-carousel">
                                     <div class="demo-img-patten-top d-none d-sm-block">
-                                        <img src="{{ URL::asset('build/images/landing/img-pattern.png') }}"
+                                        <img src="<?php echo e(URL::asset('build/images/landing/img-pattern.png')); ?>"
                                             class="d-block img-fluid" alt="...">
                                     </div>
                                     <div class="demo-img-patten-bottom d-none d-sm-block">
-                                        <img src="{{ URL::asset('build/images/landing/img-pattern.png') }}"
+                                        <img src="<?php echo e(URL::asset('build/images/landing/img-pattern.png')); ?>"
                                             class="d-block img-fluid" alt="...">
                                     </div>
                                     <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                                         <div class="carousel-inner p-2 rounded">
                                             <div class="carousel-item active" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="2000">
-                                                <img src="{{ URL::asset('build/images/demos/pngwing.com.png') }}"
+                                                <img src="<?php echo e(URL::asset('build/images/demos/pngwing.com.png')); ?>"
                                                     class="d-block w-100" alt="...">
                                             </div>
                                         </div>
@@ -158,37 +155,37 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/amazon.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/amazon.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/walmart.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/walmart.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/lenovo.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/lenovo.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/paypal.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/paypal.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/shopify.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/shopify.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-images">
-                                                    <img src="{{ URL::asset('build/images/clients/verizon.svg') }}"
+                                                    <img src="<?php echo e(URL::asset('build/images/clients/verizon.svg')); ?>"
                                                         alt="client-img" class="mx-auto img-fluid d-block">
                                                 </div>
                                             </div>
@@ -1598,7 +1595,7 @@
                             <div class="col-lg-4">
                                 <div class="process-card mt-4">
                                     <div class="process-arrow-img d-none d-lg-block">
-                                        <img src="{{ URL::asset('build/images/landing/process-arrow-img.png') }}"
+                                        <img src="<?php echo e(URL::asset('build/images/landing/process-arrow-img.png')); ?>"
                                             alt="" class="img-fluid">
                                     </div>
                                     <div class="avatar-sm icon-effect mx-auto mb-4">
@@ -1615,7 +1612,7 @@
                             <div class="col-lg-4">
                                 <div class="process-card mt-4">
                                     <div class="process-arrow-img d-none d-lg-block">
-                                        <img src="{{ URL::asset('build/images/landing/process-arrow-img.png') }}"
+                                        <img src="<?php echo e(URL::asset('build/images/landing/process-arrow-img.png')); ?>"
                                             alt="" class="img-fluid">
                                     </div>
                                     <div class="avatar-sm icon-effect mx-auto mb-4">
@@ -1748,8 +1745,10 @@
         
         </body>
  
-    @endsection
-    @section('script')
-        <script src="{{ URL::asset('build/libs/swiper/swiper-bundle.min.js') }}"></script>
-        <script src="{{ URL::asset('build/js/pages/landing.init.js') }}"></script>
-    @endsection
+    <?php $__env->stopSection(); ?>
+    <?php $__env->startSection('script'); ?>
+        <script src="<?php echo e(URL::asset('build/libs/swiper/swiper-bundle.min.js')); ?>"></script>
+        <script src="<?php echo e(URL::asset('build/js/pages/landing.init.js')); ?>"></script>
+    <?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master-without-nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\WORKSPACE\Laravel\gindex.me\resources\views/landing.blade.php ENDPATH**/ ?>
